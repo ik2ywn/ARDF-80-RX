@@ -1,0 +1,21 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 2e173ef4-7b3c-433b-8ef3-21b1cd8fb6cd)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "Ideas:\nUse a low noise antenna amplifier\nExisting design: dual gate FET LNA\nAlternative: \nNXP BGA2817 (2017)??\nNXP BGA2869 (2015)??"
+    (at 22.86 25.4 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 127235df-2de7-4804-ba26-cfecf0eab94c)
+  )
+  (text "RF attenuator:\nHMC472ALP4ETR Analog Devices\nHMC624ALP4ETR Analog Devices\nHMC540SLP3ETR Analog Devices"
+    (at 219.71 24.13 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b3a3c4a2-610c-4cb4-b0c5-48a1195d6cda)
+  )
+)

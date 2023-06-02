@@ -1,0 +1,26 @@
+# Backup folder
+*-backups/*
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch_bak
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+# Netlist files (exported from Eeschema)
+*.net
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+# export files for BOM
+*.csv
+*.tsv
+*.xml
+/powerinjector/powerinjector-backups/*.zip

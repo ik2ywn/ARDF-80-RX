@@ -1,0 +1,150 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid d89414e7-aea9-4563-b9a2-3077eb3255c6)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 115.57 127) (size 38.1 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 12cc5171-7f9f-47a0-8020-c549a1cd5dc9)
+    (property "Sheetname" "VFO" (at 115.57 126.2884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "vfo.kicad_sch" (at 115.57 156.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ARDF-80-RX"
+        (path "/d89414e7-aea9-4563-b9a2-3077eb3255c6" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 229.87 30.48) (size 29.21 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 13a63331-3a86-4aa9-b3a0-b012c8f2639f)
+    (property "Sheetname" "power" (at 229.87 29.7684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 229.87 55.1946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ARDF-80-RX"
+        (path "/d89414e7-aea9-4563-b9a2-3077eb3255c6" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 63.5 81.28) (size 24.13 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2cf26101-eb68-40c5-b2be-43e088fe67b1)
+    (property "Sheetname" "Mixer1" (at 63.5 80.5684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Mixer1.kicad_sch" (at 63.5 105.9946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ARDF-80-RX"
+        (path "/d89414e7-aea9-4563-b9a2-3077eb3255c6" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 175.26 81.28) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 310ae000-a992-4733-9338-bc3554cbc926)
+    (property "Sheetname" "mixer2" (at 175.26 80.5684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mixer2.kicad_sch" (at 175.26 107.2646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ARDF-80-RX"
+        (path "/d89414e7-aea9-4563-b9a2-3077eb3255c6" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 39.37 33.02) (size 24.13 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3e0afab8-e183-4b3c-8499-572e64c5dc6b)
+    (property "Sheetname" "Antenna" (at 39.37 32.3084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "antenna.kicad_sch" (at 39.37 57.7346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ARDF-80-RX"
+        (path "/d89414e7-aea9-4563-b9a2-3077eb3255c6" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 118.11 81.28) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 50cf0aa7-846e-4e0e-ab66-a6806034889b)
+    (property "Sheetname" "if_filter" (at 118.11 80.5684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "if_filter.kicad_sch" (at 118.11 107.2646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ARDF-80-RX"
+        (path "/d89414e7-aea9-4563-b9a2-3077eb3255c6" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 232.41 81.28) (size 27.94 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6468c9dd-1148-46a1-a441-3a4601c3457f)
+    (property "Sheetname" "audio" (at 232.41 80.5684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "audio.kicad_sch" (at 232.41 105.9946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ARDF-80-RX"
+        (path "/d89414e7-aea9-4563-b9a2-3077eb3255c6" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 200.66 127) (size 35.56 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6af8c810-3139-462e-a8a7-9b13407688d2)
+    (property "Sheetname" "CPU" (at 200.66 126.2884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "CPU.kicad_sch" (at 200.66 155.5246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ARDF-80-RX"
+        (path "/d89414e7-aea9-4563-b9a2-3077eb3255c6" (page "9"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
